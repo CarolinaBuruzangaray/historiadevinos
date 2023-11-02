@@ -1,0 +1,38 @@
+@import 'colores';
+@import 'estructura';
+$fuente-titulos: "Arial";
+
+
+h1, h2 {
+    font-family: $fuente-titulos;
+}
+
+/* Listado de productos */
+ul {
+    list-style-type: none;
+
+    li {
+        border: solid 1px;
+        padding: 10px;
+
+        a {
+            background-color: $color-primario;
+
+            
+            &:hover {
+                /* Hace referencia al a */
+                background-color: $color-secundario;
+            }
+            
+            @media (min-width:768px) {
+                background-color: $color-secundario;
+            }
+        }
+    }
+    
+}
+
+
+section p {
+    color: red;
+}
