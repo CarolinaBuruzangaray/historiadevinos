@@ -10,9 +10,12 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 .logo {
-  display: flex;
-  max-width: 85px;
-  height: auto;
+  width: 25%;
+  height: 25%;
+  background-color: white;
+}
+.logo img {
+  text-align: center;
 }
 
 .centrar-imagen {
@@ -93,7 +96,7 @@ p {
 
 
 body {
-  background-color: #f5f5f5; /* Cambia el fondo de la página */
+ /* background-color: #f5f5f5; /* Cambia el fondo de la página */
   font-family: "Lucida Sans", sans-serif;
   text-align: center; /* Centrar el contenido principal */
   padding-top: 20px; /* Agrega un espacio en la parte superior */
@@ -219,6 +222,3 @@ p {
   color: #333;
   background-color: #fff;
 }
-
-
-
